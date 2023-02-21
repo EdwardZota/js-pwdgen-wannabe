@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+	font-family: "Cinzel", serif;
+}
+
+main{
+    text-align: center;
+    padding-top: 100px;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    background-color: black;
+
+}
+h1{
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+
+#new_password{
+    animation: pulse 1.5s linear infinite;
+    font-size: 50px;
+}
+
+
+@keyframes pulse{
+    0%{
+        color: red;
+    }
+
+    20%{
+        color: orange;
+    }
+
+    40%{
+        color: yellow;
+    }
+
+    60%{
+        color: green;
+    }
+
+    80%{
+        color: purple;
+    }
+
+    100%{
+        color: red;
+    }
+}
